@@ -6,6 +6,7 @@ deber imprimir en consola
 tengo 40 años
 vivo en latacunga
 los fines de semana practico flutter
+se agrego github
 */
  print ('hola me llamo Vinicio');
   print('tengo 40 años');
