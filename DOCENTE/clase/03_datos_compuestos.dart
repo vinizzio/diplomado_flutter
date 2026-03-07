@@ -21,4 +21,60 @@ void main() {
   // El último elemento
   print(listaDeCompras.last);
 
+
+  // Mapas
+  // Es una forma de crear datos estructurados
+  // String, int
+  // String, double
+  // String, String
+  // String, dynamic
+  // dynamic cualquier tipo de dato
+  Map<String,dynamic> miPrimerMapa = {
+    "nombre" : "Richar",
+    "edad" : 29,
+    "ciudad": "Latacunga",
+  };
+
+  print(miPrimerMapa);
+
+  print(miPrimerMapa["ciudad"]);
+  // print "dirección"
+  print(miPrimerMapa["direccion"]);
+
+  // Edita la información 
+  miPrimerMapa["nombre"] = "Richar Santiago";
+  print(miPrimerMapa);
+
+  // Agrega una información
+  miPrimerMapa["direccion"] = "Latacunga, SN";
+  print(miPrimerMapa);
+
+  // Que pasa si ahora imprimen dirección 
+  // Si se imprime porque ya existe la clave. 
+
+  // Acceder a los valores
+  print(miPrimerMapa.values);
+  // Acceder a las claves
+  print(miPrimerMapa.keys);
+
+
+  // List de List
+  List<List<int>> listas = [[1,2], [3,4], [5,6]];
+  print(listas);
+  // Map de List 
+  // Map de Map
+  Map<String, dynamic> mapaValores = {
+    "listas": [1,2,3,4,5],
+    "mapas": {
+      "clave": 10,
+      "otroMapa": {
+        "otraClave": "Richar"
+      },
+    },
+  };
+  print(mapaValores);
+  // Como puedo obtener el valor de Richar? 
+  print(mapaValores["mapas"]["otroMapa"]["otraClave"]);
+
+
 }
