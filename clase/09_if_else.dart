@@ -1,12 +1,12 @@
 void main() {
   //if
   //else
-  int edadPersona =20;
-    if (edadPersona >= 18){
-      print ("es mayor de edad");
-    } else {
-      print ("es menor de edad");
-    }
+  int edadPersona = 20;
+  if (edadPersona >= 18) {
+    print("es mayor de edad");
+  } else {
+    print("es menor de edad");
+  }
   // if (condicion) {}
   // code
   //} else {
@@ -66,12 +66,12 @@ void main() {
     }
   }
   */
-//como controlan los nombres de los dias de la semana
-// pepito o cualquier otra cosa que no sea dias de la semana
-// esto no es un dia de la semana
+  //como controlan los nombres de los dias de la semana
+  // pepito o cualquier otra cosa que no sea dias de la semana
+  // esto no es un dia de la semana
 
-final diaSemana = "pepito";
-if (diaSemana != "Lunes" &&
+  final diaSemana = "pepito";
+  if (diaSemana != "Lunes" &&
       diaSemana != "Martes" &&
       diaSemana != "Miercoles" &&
       diaSemana != "Jueves" &&
@@ -87,4 +87,3 @@ if (diaSemana != "Lunes" &&
     print("Estoy cansado");
   }
 }
-

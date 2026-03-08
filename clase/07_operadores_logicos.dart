@@ -1,3 +1,3 @@
-void main(){
-  print ("Resultado or ${false || true}");
+void main() {
+  print("Resultado or ${false || true}");
 }

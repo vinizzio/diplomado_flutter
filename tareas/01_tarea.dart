@@ -6,9 +6,8 @@ void main() {
   vivo en latacunga
   los fines de semana practico flutter
   */
- print ('hola me llamo Vinicio');
+  print('hola me llamo Vinicio');
   print('tengo 40 años');
-  print ('vivo en Latacunga');
-  print ('Los fines de semana practico Flutter y MTB');
- 
+  print('vivo en Latacunga');
+  print('Los fines de semana practico Flutter y MTB');
 }
