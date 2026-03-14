@@ -8,7 +8,7 @@ void main() {
   final comp1 = (5 < 8) && (x != y);
   print("Resultado comp1: $comp1");
 
-  // OR -> 0 -> || -> alt124
+  // OR -> 0 -> || -> alt124  
   // es verdadero si almenos uno es verdadero
 
   // negacion -> 
