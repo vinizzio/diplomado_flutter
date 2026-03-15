@@ -10,7 +10,10 @@ void main() {
 
   // OR -> 0 -> || -> alt124  
   // es verdadero si almenos uno es verdadero
+  // falso si todos son falsos
+  print("Resultados or: ${false || true}");
 
   // negacion -> 
   //print("Resultado or ${false || true}");
+  print("Negacion: ${!false}");
 }
